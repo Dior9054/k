@@ -1,0 +1,104 @@
+@media(max-width: 1440px) {
+    .main__left {
+        width: 17%;
+    }
+
+    .main__clock button {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .main__left {
+        width: 20%;
+    }
+    .right__video video {
+        width: 350px;
+        height: 450px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 1024px) {
+    .header__logo img {
+        width: 90px;
+    }
+
+    .header__form input {
+        width: 150px;
+        font-size: 12px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 6px;
+    }
+
+    .header__form {
+        padding: 7px;
+    }
+
+    .header__form img {
+        width: 16px;
+    }
+
+    .header__buttons button h1 {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .header__buttons button {
+        padding: 3px 8px;
+        gap: 7px;
+    }
+
+    .header__buttons>img {
+        width: 20px;
+        margin: 0px 9px;
+    }
+
+    .right__title button {
+        margin-right: 0;
+    }
+
+    .right__subtitle h1 {
+        font-size: 17px;
+    }
+
+    .right__subtitle span {
+        font-size: 11px;
+    }
+
+    .right__subtitle i {
+        font-size: 12px;
+    }
+
+    .user__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .right__title button {
+        padding: 6px 7px;
+    }
+
+    .right__title {
+        width: 440px;
+    }
+
+    .main__left {
+        width: 34%;
+    }
+}
+@media(max-width: 768px) {
+    .tiktok__header {
+        display: none;
+    }
+    .main__left {
+        height: 100vh;
+    }
+    .main__right {
+        height: 100vh;
+    }
+    .ticktok__line {
+        display: none;
+    }
+}
